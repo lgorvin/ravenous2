@@ -22,7 +22,8 @@ const yelp = {
                         zipCode : business.location.zipCode,
                         catergory : business.catergories,
                         rating : business.rating,
-                        reviewCount : business.review_count
+                        reviewCount : business.review_count,
+                        url : business.url
                     };
                 });
             }

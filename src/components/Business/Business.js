@@ -6,11 +6,14 @@ class Business extends React.Component {
   getGoogleUrl(address) {
     return `https://www.google.com/maps/search/?api=1&query=${address}`
   }
+  getWebsiteUrl() {
+    return `${this.props.business.url}`
+  }
   render() {
     return (
       <div className="Business">
         <div className="image-container">
-          <img src={this.props.business.imageSrc} alt=''/>
+          <a href={this.getWebsiteUrl()} ><img src={this.props.business.imageSrc} alt=''/></a>
         </div>
         
         <a href={this.getGoogleUrl(this.props.business.address)}><h2>{this.props.business.name}</h2></a>
