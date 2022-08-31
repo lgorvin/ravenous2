@@ -6,6 +6,8 @@
   margin: 0 .5rem 2.3rem .5rem;
 }
 
+
+
 .Business .image-container {
   height: 16.66rem;
   margin-bottom: 1rem;
@@ -15,6 +17,7 @@
   margin-bottom: .5rem;
   font-size: 1.2rem;
   font-weight: 600;
+  color: white;
 }
 
 .Business-information {
@@ -26,6 +29,7 @@
   font-size: .88rem;
   font-weight: 300;
   line-height: 1rem;
+  color:rgb(238, 229, 229);
 }
 
 .Business-address {
@@ -42,7 +46,7 @@
 }
 
 .Business-reviews h3 {
-  color: #CCA353;
+  color: #c1121f;
   font-weight: 600;
 }
 
